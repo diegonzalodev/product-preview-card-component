@@ -28,15 +28,15 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop solution image
-![Desktop Solution Image](screenshot-desktop.png)
+![Desktop Solution Image](images/screenshots/screenshot-desktop.png)
 
 #### Mobile solution image
-![Mobile Solution Image](screenshot-mobile.png)
+![Mobile Solution Image](images/screenshots/screenshot-mobile.png)
 
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/diegonzalodev/product-preview-card-component)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [Product Preview Card Component](https://diegonzalodev.github.io/product-preview-card-component/)
 
 ## My process
 
