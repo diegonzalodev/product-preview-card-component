@@ -1,0 +1,95 @@
+.card {
+	&__category {
+		color: $dark-grayish-blue;
+		font-weight: 400;
+	}
+	&__title {
+		font-family: $fraunces-font;
+		font-weight: 700;
+	}
+	&__paragraph {
+		color: $dark-grayish-blue;
+		font-weight: 400;
+	}
+	&__price--now {
+		font-family: $fraunces-font;
+		font-weight: 700;
+	}
+	&__price--before {
+		color: $dark-grayish-blue;
+		font-weight: 400;
+	}
+}
+
+.main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: $white;
+	border-radius: .7rem;
+	width: 21rem;
+	&__img{
+		picture {
+			img {
+				width: 100%;
+				border-top-right-radius: .7rem;
+				border-top-left-radius: .7rem;
+			}
+		}
+	}
+	&__description {
+		padding: 1.3rem 1.3rem 1.5rem;
+	}
+	&__category {
+		font-size: .85rem;
+		letter-spacing: 4px;
+	}
+	&__title {
+		margin: .8rem 0;
+		color: $very-dark-blue;
+		line-height: 2rem;
+	}
+	&__paragraph {
+		font-size: .875rem;
+		line-height: 1.5rem;
+	}
+	&__prices {
+		margin-top: 1.3rem;
+		margin-bottom: 1.2rem;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	&__price--now {
+		color: $dark-cyan;
+		font-size: 2rem;
+	}
+	&__price--before {
+		margin-left: 1rem;
+		font-size: .85rem;
+		text-decoration: line-through;
+	}
+	&__btn {
+		width: 100%;
+		background-color: $dark-cyan;
+		border: 1px solid $dark-cyan;
+		border-radius: .5rem;
+		color: $white;
+		cursor: pointer;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: .8rem;
+		font-size: .9rem;
+		font-weight: 700;
+		&:hover {
+			background-color: $dark-cyan-hover;
+		}
+	}
+}
